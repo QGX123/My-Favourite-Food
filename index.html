@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Foody World</title>
+    <meta
+      name="description"
+      content="A website that utilize flex layout to display some of my favourite food"
+    />
+
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="index.css" type="text/css" media="all" />
+  </head>
+
+  <body>
+    <!-- .outer-wrap -->
+    <div class="outer-wrap">
+      <!-- .masthead -->
+      <header class="masthead">
+        <!-- .sidebar-switcher -->
+        <div class="sidebar-switcher">
+          Select layout:
+          <a href="#" class="sidebar-left-toggle"
+            ><i class="fa fa-align-left"></i
+            ><span class="screen-reader-text">Move sidebar to the left</span></a
+          >
+          <a href="#" class="sidebar-right-toggle"
+            ><i class="fa fa-align-right"></i
+            ><span class="screen-reader-text"
+              >Move sidebar to the right</span
+            ></a
+          >
+          <a href="#" class="no-sidebar-toggle"
+            ><i class="fa fa-align-justify"></i
+            ><span class="screen-reader-text">Remove sidebar</span></a
+          >
+          <a href="#" class="hide-sidebar-toggle"
+            ><i class="fa fa-arrow-circle-right"></i
+            ><span class="screen-reader-text">Remove sidebar</span></a
+          >
+        </div>
+
+        <!-- .centered -->
+        <div class="centered">
+          <div class="site-branding">
+            <h1 class="site-title">
+              Foody World: The Collection of my favourite
+            </h1>
+          </div>
+        </div>
+
+        <!-- .mixed-menu -->
+        <div class="nav-mixed menu">
+          <!-- #multi-level-nav .multi-level-nav -->
+          <nav id="multi-level-nav" class="multi-level-nav" role="navigation">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li>
+                <a href="#">Food</a>
+              </li>
+              <li>
+                <a href="#">Classes</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+
+          <!-- .social-menu -->
+          <nav id="social-menu" class="social-menu" role="navigation">
+            <ul>
+              <li>
+                <a href="http://twitter.com"
+                  ><span class="screen-reader-text">Twitter</span></a
+                >
+              </li>
+              <li>
+                <a href="http://facebook.com"
+                  ><span class="screen-reader-text">Facebook</span></a
+                >
+              </li>
+              <li>
+                <a href="http://linkedin.com"
+                  ><span class="screen-reader-text">LinkedIn</span></a
+                >
+              </li>
+              <li>
+                <a href="http://youtube.com"
+                  ><span class="screen-reader-text">YouTube</span></a
+                >
+              </li>
+              <li>
+                <a href="http://instagram.com"
+                  ><span class="screen-reader-text">Instagram</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="content">
+        <main class="main-area">
+          <section class="cards">
+            <article class="card">
+              <a href="#">
+                <picture class="thumbnail">
+                  <img src="images/cropped/burger.jpg" alt="Hamburger" />
+                </picture>
+                <!-- .card-content -->
+                <div class="card-content">
+                  <h2>Hamburger</h2>
+                  <p>
+                    A hamburger is a sandwich consisting of a cooked meat patty
+                    on a bun or roll. Hamburgers are traditionally made with
+                    ground beef and served with onions, tomatoes, lettuce,
+                    ketchup, and other garnishes.
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article class="card">
+              <a href="#">
+                <picture class="thumbnail">
+                  <img src="images/cropped/boller.jpg" alt="Norwegian boller" />
+                </picture>
+                <div class="card-content">
+                  <h2>Norwegian Boller</h2>
+                  <p>
+                    Boller - or sweet wheat buns - is a favored snack and
+                    comfort food for Norwegians, especially enjoyed for
+                    childrens' birthdays or on a cold and rainy/snowy day
+                    coupled with hot cocoa.
+                  </p>
+                  <p>
+                    One of the key ingredients of boller is cardamom - something
+                    that gives them a distinct aroma and gives them the more
+                    lengthy name "cardamom boller".
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article class="card">
+              <a href="#">
+                <picture class="thumbnail">
+                  <img src="images/cropped/sushi.jpg" alt="Sushi" />
+                </picture>
+                <div class="card-content">
+                  <h2>Sushi</h2>
+                  <p>
+                    Sushi, a staple rice dish of Japanese cuisine, consisting of
+                    cooked rice flavoured with vinegar and a variety of
+                    vegetable, egg, or raw seafood garnishes and served cold.
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article class="card">
+              <a href="#">
+                <picture class="thumbnail">
+                  <img src="images/cropped/dumpling.jpg" alt="Dumpling" />
+                </picture>
+                <div class="card-content">
+                  <h2>Dumpling</h2>
+                  <p>
+                    A dumpling is a delicious, bite-sized food that's made of
+                    savory ingredients wrapped in dough and cooked. Most
+                    cultures have some version of a savory dumpling, and many
+                    have sweet dumplings as well, like apple dumplings, which
+                    have a fruit filling wrapped in pastry.
+                  </p>
+                  <p>
+                    According to legend, Chinese stuffed dumplings were invented
+                    during the Han Dynasty by a man named Zhang Zhongjian.
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article class="card">
+              <a href="#">
+                <picture class="thumbnail">
+                  <img src="images/cropped/huoguo.jpg" alt="Huo guo" />
+                </picture>
+                <div class="card-content">
+                  <h2>Hot pot</h2>
+                  <p>
+                    Hot pot is less of a dish than it is an experience,
+                    encapsulating the communal dining ethos that so many Western
+                    restaurants have only recently taken on. Think of it as an
+                    adaptation of the stone soup fairy tale: you team up with a
+                    group of friends to cook an array of ingredients-thinly
+                    sliced meats, mushrooms, head-on shrimp, Chinese lettuces,
+                    fresh noodles, and more-in a single pot of simmering,
+                    seasoned broth heated on an induction burner or electric
+                    range. Once cooked to your liking, you dip it in the sauce
+                    of choice and eat it.
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article class="card">
+              <a href="#">
+                <picture class="thumbnail">
+                  <img src="images/cropped/ice-cream.jpg" alt="Ice cream" />
+                </picture>
+                <div class="card-content">
+                  <h2>Ice Cream</h2>
+                  <p>
+                    Ice cream is a frozen dairy dessert obtained by freezing the
+                    ice cream mix with continuous agitation. It contains milk
+                    products, sweetening materials, stabilizers, colors,
+                    flavors, and egg products. Ice cream had its origins in
+                    Europe and was introduced later in the United States where
+                    it developed into an industry.
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article class="card">
+              <a href="#">
+                <picture class="thumbnail">
+                  <img src="images/cropped/pizza.jpg" alt="Pizza" />
+                </picture>
+                <div class="card-content">
+                  <h2>Pizza</h2>
+                  <p>
+                    Pizza, dish of Italian origin consisting of a flattened disk
+                    of bread dough topped with some combination of olive oil,
+                    oregano, tomato, olives, mozzarella or other cheese, and
+                    many other ingredients, baked quickly—usually.
+                  </p>
+                  <p>
+                    In a commercial setting, using a wood-fired oven heated to a
+                    very high temperature—and served hot.
+                  </p>
+                </div>
+              </a>
+            </article>
+          </section>
+        </main>
+
+        <!-- .content -->
+        <div class="sidebar">
+          <div class="squish-container">
+            <h3>Explore other foods:</h3>
+            <nav class="food-menu">
+              <ul>
+                <li>
+                  <a href="https://en.wikipedia.org/wiki/Italian_cuisine"
+                    >Italian Food</a
+                  >
+                </li>
+                <li>
+                  <a href="https://en.wikipedia.org/wiki/Japanese_cuisine"
+                    >Japanese Food</a
+                  >
+                </li>
+                <li>
+                  <a href="https://en.wikipedia.org/wiki/Chinese_cuisine"
+                    >Chinese Food</a
+                  >
+                </li>
+                <li>
+                  <a href="https://en.wikipedia.org/wiki/List_of_American_foods"
+                    >American Food</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer-area">
+        <p>Made by me.</p>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="JS/libs/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="JS/sidebar-switcher.js"></script>
+  </body>
+</html>
